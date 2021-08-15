@@ -163,7 +163,9 @@ alpha - коэф, выплата с процентом( пр. 1.1)
 Delta2 AUC > Delta1 AUC
 
 Delta1 = Sum_i:N_TP_class{0}_i_1(alpha*Credit_TP_class{0}_i_1) - Sum_i:N_TN_class{0}_i_1(Credit_TN_class{1}_i_1) - eta * Sum_i:N_{FN, FP}_i_1(Credit_{FN, FP}_i_1)
+
 Delta2 = Sum_i:N_TP_class{0}_i_2(alpha*Credit_TP_class{0}_i_2) - Sum_i:N_TN_class{0}_i_2(Credit_TN_class{1}_i_2) - eta * Sum_i:N_{FN, FP}_i_2(Credit_{FN, FP}_i_2)
+
 Gain = |Delta2 - Delta1|
 
 Также, возможно, необходимо учитывать то, что экономический эффект необходимо учитывать и рассчитывать в динамике использования модели.
