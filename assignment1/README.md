@@ -158,9 +158,9 @@ Case:
 
 В частности, оценка экономического эффекта заключена в Confusion Matrix. При сравнении двух моделей с двумя AUC и выбранным порогом, возникает экономический Gain:
 
-eta - доля тех кто не вернет среди классифицированных как FN, FP
-alpha - коэф, выплата с процентом( пр. 1.1)
-Delta2 AUC > Delta1 AUC
+- eta - доля тех кто не вернет среди классифицированных как FN, FP
+- alpha - коэф, выплата с процентом( пр. 1.1)
+- Delta2 AUC > Delta1 AUC
 
 Delta1 = Sum_i:N_TP_class{0}_i_1(alpha*Credit_TP_class{0}_i_1) - Sum_i:N_TN_class{0}_i_1(Credit_TN_class{1}_i_1) - eta * Sum_i:N_{FN, FP}_i_1(Credit_{FN, FP}_i_1)
 
