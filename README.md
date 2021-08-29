@@ -28,3 +28,5 @@
   * [eda_validation.ipynb](assignment1/eda_validation.ipynb) - исследование, мини-EDA, валидация данных
   * [README.md](assignment1/README.md) - описание постановки задачи, мини предпроектное исследование
 - assigmnent2 - вторая часть группового домашего задания
+  * [train.ipynb](assignment2/train.ipynb) - обучение итоговой скоринговой модели
+  * [scoring](assignment2/scoring) - папка с демо-версией работы скоринговой модели
